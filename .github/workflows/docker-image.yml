@@ -28,5 +28,6 @@ jobs:
 
     - name: Tag and Push Docker image to Docker Hub
       run: |
-        docker tag my-image-name:$(date +%s) my-dockerhub-username/my-image-name:latest
-        docker push my-dockerhub-username/my-image-name:latest
+        docker tag my-image-name:$(date +%s) deveshraj08/nodeapp:latest
+        docker push deveshraj08/nodeapp:latest
+
